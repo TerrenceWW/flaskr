@@ -1,6 +1,8 @@
 <!doctype html>
-<title>Flaskr</title>
+<html>
+<title>Terrence's App</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<body>
 <div class=page>
   <h1>Terrence's App</h1>
   <div class=metanav>
@@ -15,3 +17,9 @@
   {% endfor %}
   {% block body %}{% endblock %}
 </div>
+<div class=footer>
+Copyright &copy; 2017 Terrence Wu<br>
+All Rights Reserved
+</div>
+</body>
+</html>

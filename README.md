@@ -1,6 +1,7 @@
 # flaskr
 
-Simple Flask App
+Simple Flask App created per directions at
+http://flask.pocoo.org/docs/0.12/tutorial/introduction/
 
 ## Starting the app
 
